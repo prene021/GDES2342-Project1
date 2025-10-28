@@ -117,3 +117,7 @@ h1 {
     margin: auto;
     width: 80%;
 }
+
+section {
+    padding-left: 5%;
+}
