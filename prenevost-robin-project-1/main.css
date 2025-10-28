@@ -1,0 +1,119 @@
+@font-face {
+    font-family: 'DinLTPro';
+    src: url('fonts/din-next-lt-pro-regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    background-color: rgb(233, 237, 242);
+    font-family: 'DinLTPro', sans-serif;
+    margin: 0;
+}
+
+.header-fixed {
+    width: 100%;
+    position: sticky;
+    display: flex;
+    top: 0;
+    z-index: 2;
+    font-weight: 900;
+    font-size: 20px;
+    background: rgba(255, 255, 255, 0.25);
+    justify-content: space-between;
+    backdrop-filter: blur(20px);
+    border-bottom: 1;
+    border-top: 0;
+    border-left: 0;
+    border-color: #FFF;
+    border-style: solid;
+}
+
+.header-logo {
+    height: 50px;
+    margin: auto;
+    justify-content: flex-start;
+    padding-left: 20px;
+    padding-top: 5px;
+}
+
+.header-nav {
+    display: inherit;
+}
+
+.header-list {
+    list-style-type: none;
+    display: inherit;
+    justify-content: flex-end;
+}
+
+li {
+    margin: 0px 30px;
+    text-decoration: none;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero-img {
+    width: 100%;
+}
+
+.hero-title {
+    font-weight: 900;
+    position: absolute;
+    left: 5%;
+    width: 100%;
+    top: 20%;
+    color: white;
+    font-size: 7vw;
+    text-shadow: 2px 2px 40px rgba(0, 0, 0, 0.75);
+}
+
+.hero-desc {
+    position: absolute;
+    top: 55%;
+    left: 5%;
+}
+
+.hero-txt {
+    position: relative;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.55);
+}
+
+.hero-button {
+    position: relative;
+    border: 1;
+    border-color: #FFF;
+    border-style: solid;
+    color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 25px 100px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 400;
+    margin: -15px 2px;
+    cursor: pointer;
+    font-family: 'DinLTPro', sans-serif;
+    backdrop-filter: blur(3px);
+    border-radius: 15px;
+    letter-spacing: 4px;
+}
+
+h1 {
+    text-align: center;
+    margin: 25px 0px 25px 0px;
+    letter-spacing: 4px;
+}
+
+.slideshow-img {
+    margin: auto;
+    width: 80%;
+}
