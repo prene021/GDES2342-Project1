@@ -187,14 +187,18 @@ input[type=submit] {
 }
   
 .card-container {
-    padding: 2px 16px;
+    margin: 2px 16px;
+    max-height: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    overflow-wrap: break-word;
 }
 
 .card-img {
     object-fit: cover;
     width: 800px;
     height: 20vw;
-    min-height: 200px;
+    min-height: 190px;
     min-width: 40%;
     max-height: 450px;
 }
@@ -210,10 +214,12 @@ h4 {
 }
 
 .card-button {
+    margin-bottom: 16px;
     background-color: #ffb300;
     color: white;
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    font-weight: 400;
 }
